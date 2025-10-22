@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeezy Says - Kanye West Lyrics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="yeezy">YEEZY</span>
+                    <span class="says">SAYS</span>
+                </h1>
+                <p class="subtitle">Discover the genius of Kanye West through his most iconic lyrics</p>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="controls">
+                <button id="randomBtn" class="btn btn-primary">
+                    <i class="fas fa-random"></i>
+                    Random Lyric
+                </button>
+                <button id="nextBtn" class="btn btn-secondary">
+                    <i class="fas fa-arrow-right"></i>
+                    Next
+                </button>
+                <button id="favoriteBtn" class="btn btn-favorite">
+                    <i class="fas fa-heart"></i>
+                    <span id="favoriteText">Add to Favorites</span>
+                </button>
+            </div>
+
+            <div class="lyric-container">
+                <div class="lyric-card" id="lyricCard">
+                    <div class="lyric-content">
+                        <div class="lyric-text" id="lyricText">
+                            Click "Random Lyric" to discover Kanye's wisdom
+                        </div>
+                        <div class="lyric-meta" id="lyricMeta">
+                            <span class="song-title" id="songTitle">Welcome to Yeezy Says</span>
+                            <span class="album-year" id="albumYear">2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="favorites-section" id="favoritesSection" style="display: none;">
+                <h3 class="favorites-title">
+                    <i class="fas fa-heart"></i>
+                    Your Favorite Lyrics
+                </h3>
+                <div class="favorites-list" id="favoritesList">
+                    <!-- Favorites will be populated here -->
+                </div>
+                <button id="clearFavoritesBtn" class="btn btn-clear">
+                    <i class="fas fa-trash"></i>
+                    Clear All Favorites
+                </button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Yeezy Says. Celebrating the artistry of Kanye West.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
