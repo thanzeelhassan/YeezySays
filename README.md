@@ -1,3 +1,5 @@
+https://thanzeelhassan.github.io/YeezySays/
+
 # Yeezy Says 🌊
 
 A beautiful, interactive website showcasing iconic Kanye West lyrics with modern design and smooth animations.
